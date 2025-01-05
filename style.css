@@ -108,6 +108,49 @@ h2 {
     background-color: #0056b3;
     transform: translateY(-3px); 
 }
+/* Your existing CSS styles */
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+/* style.css */
+/* ... your existing CSS styles ... */
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust as needed */
+    grid-gap: 2rem;
+}
+
+.image-card {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.05); /* Subtle background color */
+    border-radius: 5px;
+    padding: 1.5rem;
+}
+
+.image-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.image-card h3 {
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.image-card p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
 
 #output {
     margin-top: 2rem;

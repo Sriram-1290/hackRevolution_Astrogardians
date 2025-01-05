@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroGuardians - Data Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/46164d3d79.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html">AstroGuardians</a></h1> 
+            <button class="btn-home" onclick="location.href='index.html'">
+                <i class="fas fa-home"></i> Home
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Data Analysis Results</h2>
+            <p>The following visualizations provide key insights into the space debris environment.</p>
+
+            <div class="image-grid">
+                <div class="image-card">
+                    <img src="images/altitude_distribution_debris.png" alt="Altitude Distribution of Debris">
+                    <h3>Altitude Distribution of Debris</h3>
+                    <p>This graph illustrates the distribution of space debris objects across different orbital altitudes, highlighting the concentration of debris in specific altitude ranges.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/altitude_rcs_distribution.png" alt="Altitude Distribution by RCS Size and Object Type" alt="Altitude Distribution by RCS Size and Object Type">
+                    <h3>Altitude Distribution by RCS Size and Object Type</h3>
+                    <p>This visualization explores the correlation between debris object type (operational/non-operational) and Reaction Control System (RCS) size at various orbital altitudes.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/cumulative_debris_country.png" alt="Cumulative Debris by Country">
+                    <h3>Cumulative Debris by Country</h3>
+                    <p>This graph depicts the cumulative number of debris objects originating from different countries, providing insights into the contributions of various spacefaring nations to the debris population.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/cumulative_objects.png" alt="Cumulative Object Count by Launch Year">
+                    <h3>Cumulative Object Count by Launch Year</h3>
+                    <p>This visualization shows the cumulative number of space objects launched each year, highlighting the exponential growth of the space debris population over time.</p>
+                </div>
+                <div class="image-card">
+                    <img src="images/period_distribution_payload.png" alt="Period Distribution of Payloads">
+                    <h3>Period Distribution of Payloads</h3>
+                    <p>This graph represents the distribution of orbital periods for various types of space payloads, revealing the diversity of missions and operational altitudes.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AstroGuardians</p>
+    </footer>
+
+</body>
+</html>
